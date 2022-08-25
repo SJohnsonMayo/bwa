@@ -26,7 +26,7 @@
 #include <stdlib.h>
 #include <stdint.h>
 #include <assert.h>
-#include <emmintrin.h>
+#include "sse2neon.h"
 #include "ksw.h"
 
 #ifdef USE_MALLOC_WRAPPERS
